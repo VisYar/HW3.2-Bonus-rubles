@@ -6,7 +6,7 @@ public class Main {
         if (added <= 1000) {
             bonus = 0;
         }
-        int newBalance = ((int)balance + (int)added + bonus);
+        float newBalance = (balance + added + bonus);
         System.out.println("Вам начислено " + bonus + " бонусных рублей.");
         System.out.println("На вашем балансе " + newBalance + " рублей.");
     }
